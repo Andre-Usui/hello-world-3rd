@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>André's Portfolio: the 3rd</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<!--
+    - header com links para etapas da página
+    - background alternando cores
+    - about
+    -- fazer um expansível com lorem ipsun
+    - some deeds
+    - contact me    
+    - footer 
+
+-->
+
+<body>
+<div class="container-fluid mybg0" id="topheader">
+    <header class="d-flex justify-content-center py-3">
+      <ul class="nav nav-pills">
+        <li class="nav-item text"> <a href="#topheader" class="nav-link active bg-warning"  id="home" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="#aboutmebutton" class="nav-link text-warning">About me</a></li>
+        <li class="nav-item"><a href="#mydeedsid" class="nav-link text-warning">Portfolio</a></li>
+        <li class="nav-item"><a href="#contactme" class="nav-link text-warning">Contact me</a></li>
+      </ul>
+    </header>
+</div>
+
+<div id="carouselExample" class="carousel slide w-100">
+    <div class="carousel-inner w-100">
+      <div class="carousel-item w-100 active">
+        <div class="p-4 p-md-5 mb-4 text-body-emphasis d-block w-100 mybg1">
+            <div class=" px-0" style="text-align: center;">
+                <h1 class="display-2 fst-italic">André Usui's portfolio: the 3rd</h1>
+                <p class="lead my-3">Having fun making fun sites. Using bootstrap this time. <br/> Welcome again.</p>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item w-100">
+        <div class="p-4 p-md-5 mb-4 text-body-emphasis d-block w-100 mybg2">
+            <div class=" px-0" style="text-align: right;">
+                <h1 class="display-2 fst-italic">Being happy i will be more</h1>
+                <p class="lead my-3">I'll do what i love, beyound any sadness</p>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item w-100">
+        <div class="p-4 p-md-5 mb-4 text-body-emphasis d-block w-100 mybg1">
+            <div class=" px-0">
+                <h1 class="display-2 fst-italic">It is what it is:</h1>
+                <p class="lead my-3">I'm very happy for learning more and more.</p>
+            </div>
+        </div>
+      </div>
+      <div class="carousel-item w-100">
+        <div class="p-4 p-md-5 mb-4 text-body-emphasis d-block w-100 mybg2">
+            <div class="px-0" style="text-align: center;">
+                <h1 class="display-2 fst-italic">Be my welcome to see what i've done this time</h1>
+                <p class="lead my-3">i hope you like it</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon mt-2" aria-hidden="false"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="false"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="container">
+  <div id="aboutme" class="row">
+    <div class="col-sm-4">
+      <div class="aboutme1">
+        <img src="./assets/andre.jpeg" alt="picture of André Usui on beach">
+      </div>
+  </div>
+    <div class="col-sm-8">
+      <h3>Hello World!</h3>
+      <p>
+        I'm a brazilian guy who's trying to learn and develop myself to a Dev 
+        carrer. I've tryed earlyer, about 2 years ago, but i've got a job who 
+        gave me some financial security. Now, i'm a app driver and i've got purpose 
+        to restart my studies again to change carrer for a better life conditions.
+        <br/> <br/>
+        My goal as developer is to make educational games, that improve mathmatical 
+        and logical knowledge using apps or websites. But that's far beyound. For now, 
+        lets makes Portifolio's websites!
+      </p>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container mt-4">
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button id="aboutmebutton" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          More of me
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse accordion1" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p>
+          <strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</strong> Nunc aliquet 
+          imperdiet ligula, at facilisis diam faucibus sit amet. Proin imperdiet ligula vel hend
+          rerit egestas. Nulla dapibus magna et dui pulvinar tempor eget iaculis nisl. Phasellus
+           malesuada, tortor ut porta pharetra, nisl ligula faucibus nisl, vel tincidunt mi lacus
+            a est. Integer fermentum nunc ex, in facilisis odio ultricies in. Duis eu dui vitae 
+            turpis dapibus consequat. Cras vulputate commodo tempus. Phasellus sit amet nisi sit 
+            amet mauris rutrum finibus.
+            <br/><br/>Cras lobortis, elit nec imperdiet consequat, risus purus 
+            rutrum turpis, vel lobortis metus quam sed est. Integer a massa nisl. Nam tempus tel
+            lus non sem consectetur mattis. Ut rhoncus sollicitudin eros, nec volutpat nisi volut
+            pat ac. Fusce ut lacinia risus, ornare mollis eros. Sed sodales tempus pulvinar. Pel
+            lentesque sed maximus lectus.
+            <br/><br/>Cras lobortis, elit nec imperdiet consequat, risus purus 
+            rutrum turpis, vel lobortis metus quam sed est. Integer a massa nisl. Nam tempus tel
+            lus non sem consectetur mattis. Ut rhoncus sollicitudin eros, nec volutpat nisi volut
+            pat ac. Fusce ut lacinia risus, ornare mollis eros. Sed sodales tempus pulvinar. Pel
+            lentesque sed maximus lectus.
+          </p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="espaco"></div>
+
+<div class="container py-3" id="mydeedsid">
+  <div class="somedeeds">
+    <h2>Some of my Deeds!</h2>
+    <p>Let's see what i've made</p>
+  </div>
+  <div class="row g-3">
+    <div class="col-md-4  mydeeds">
+      <div class="card" style="width: 13em;height: 19rem;">
+        <a href="https://github.com/Andre-Usui/DIO-jogos/tree/master/Jogo%20Dino">
+          <img src="./assets/dino.png" class="card-img-top"  style="height: 13rem;" alt="dino's google offline game">
+        </a>
+      <div class="card-body">
+          <p class="card-text">A dino google offline game with some adjustments.</p>
+      </div>
+      </div>
+    </div>
+    <div class="col-md-4 mydeeds">
+      <div class="card" style="width: 13em;height: 19rem;">
+        <a href="https://andre-usui.github.io/hello-world-2nd/">
+          <img src="./assets/portfolio2.png" class="card-img-top" style="height: 13rem;" alt="the 2nd portfolio made by me">
+        </a>
+        <div class="card-body">
+          <p class="card-text">My 2nd portfolio using HTML and CSS only.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mydeeds">
+      <div class="card" style="width: 13em; height: 19rem;">
+        <a href="https://github.com/Andre-Usui">
+          <img src="./assets/underconstruction.jpg" class="card-img-top" style="height: 13rem;" alt="A image of a constructor developer with a sign sayin 'under construction'">
+        </a>
+        <div class="card-body">
+          <p class="card-text">The next portfolio using JavaScript, but without bootstrap.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="espaco"></div>
+
+<div class="container" id="contactme">
+    <div class="row mydeeds">
+      <div class="col-sm-8">
+      </div>
+      <div class="col-sm-4 contactme1 mybg2" >
+        <div>
+          <h3>Contact me</h3>
+          <ul>
+            <li>Cellphone: +55 81 997***-****</li>
+            <li>Email: prof.andreusui@gmail.com</li>
+            <li>Av Pe Ibiapina, 64, Recife-PE</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="espaco"></div>
+
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top mybg0">
+    <div class="col-md-4 d-flex align-items-center mybg0">
+      <span class="m-3 mb-md-2">© 2024 André Usui, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-body-secondary" href="https://twitter.com/login?lang=pt"><img class="bi" width="24" height="24" href="./assets/twitter-x.svg" alt="twitter's x logo"></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/japonego00/"><img class="bi" width="24" height="24" href="./assets/instagram.svg" alt="instagram logo"></a></li>
+      <li class="ms-3"><a class="text-body-secondary" href="https://www.facebook.com/andre.usui/"><img class="bi" width="24" height="24" href="./assets/facebook.svg" alt="facebook logo"></a></li>
+    </ul>
+  </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

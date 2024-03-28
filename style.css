@@ -1,0 +1,103 @@
+body{
+    background-color: #D9EDBF;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+.mybg0{
+    background-color: #2C7865;
+    color:#D9EDBF;
+}
+
+.mybg1{
+    background:
+        linear-gradient(#FF9800, transparent),
+        linear-gradient(to top left, #D9EDBF, transparent);
+    background-blend-mode: screen;
+    height: 15em;
+}
+
+.mybg2{
+    background:
+        linear-gradient(#FF9800, transparent),
+        linear-gradient(to top right, #D9EDBF, transparent);
+    background-blend-mode: screen;
+    height: 15em;
+}
+
+
+
+
+#topheader{
+    width: 100vw;
+}
+
+#home{
+    color: #2C7865;
+}
+
+#aboutme {
+    justify-content: center;
+    align-items:center;
+    text-align: justify;   
+
+}
+
+.aboutme1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aboutme img{
+    height:15em;
+    width:10em;
+    border-radius: 50px;
+    border:#c5d7ad solid 0.3em;
+    align-self: center;
+}
+
+.accordion1{
+    background: #c5d7ad;
+}
+
+.accordion-button{
+    background-color: #2C7865;
+    color:#D9EDBF;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #2C7865;
+    color:#D9EDBF;
+}
+
+.mydeeds{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.somedeeds{
+    background: #2C7865;
+    color:#D9EDBF;
+    padding: 1em;
+    border-radius: 5px;
+    margin-bottom: 3em;
+}
+
+.contactme1{
+    width: 23em;
+    height: 20em;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    border:#2C7865 solid 5px;
+    border-radius: 50%;
+}
+
+.espaco{
+    height:5em;
+}
+
